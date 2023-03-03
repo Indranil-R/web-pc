@@ -19,9 +19,9 @@ function LoginPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (username === "indranil" && password === "indranil") {
+    if (username.toLowerCase().trim() === "admin" && password.toLowerCase().trim() === "admin") {
       setErrorMessage("");
-      Router.push("/home");
+      Router.push("/");
     } else {
       setErrorMessage("Invalid Credentials");
     }
