@@ -21,7 +21,7 @@ function LoginPage() {
     event.preventDefault();
     if (username === "indranil" && password === "indranil") {
       setErrorMessage("");
-      Router.push("/");
+      Router.push("/home");
     } else {
       setErrorMessage("Invalid Credentials");
     }
