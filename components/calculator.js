@@ -34,15 +34,15 @@ function Calculator() {
   };
 
   return (
-    <div className="p-4 rounded-lg shadow-lg w-80 h-96 relative rounded-xl bg-white shadow-lg backdrop-filter backdrop-blur-lg bg-opacity-30 p-8">
-      <div class="absolute top-0 left-0 right-0 h-8 bg-slate-100  px-2 text-xl text-gray-500">
+    <div className="rounded-lg shadow-lg w-80 h-96 relative rounded-xl bg-white shadow-lg backdrop-filter backdrop-blur-lg bg-opacity-30 p-8">
+      <div class="absolute top-0 left-0 right-0 h-8 bg-slate-100 px-2 text-xl text-gray-500">
         <div className="font-bold text-center">Calculator</div>
         <div className="flex items-center space-x-1  absolute left-2 top-0 bottom-0">
           <button className="bg-red-500 rounded-full h-4 w-4"></button>
           <button className="bg-green-500 rounded-full h-4 w-4"></button>
         </div>
       </div>
-      <div class="text-4xl font-bold mb-10 mt-10 h-12 border border-blue-50 shadow text-right p-1 text-white">
+      <div class="text-4xl font-bold mb-6 mt-6 h-12 border border-blue-50 shadow text-right p-1 text-white">
         {result}
       </div>
       <div class="grid grid-cols-4 gap-2">
