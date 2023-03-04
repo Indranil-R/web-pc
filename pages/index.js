@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import Router from "next/router";
 import Head from "next/head";
+import Calculator from "@/components/calculator";
 
 const options = [
   { icon: <FaFileAlt className="text-lg text-gray-600" />, name: "Notes" },
@@ -54,6 +55,9 @@ export default function Home() {
         className="h-screen bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url('background.jpg')` }}
       >
+
+      <Calculator/>
+
         <div className="fixed bottom-0 left-0 right-0 bg-gray-900 pr-4 flex justify-between items-center h-12">
           <button
             className="text-white text-2xl p-px"
